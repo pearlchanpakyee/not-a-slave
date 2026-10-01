@@ -1,0 +1,51 @@
+// The 6 home-grid modules, in PRD order.
+export const MODULES = [
+  {
+    id: 'lunch',
+    path: '/lunch',
+    emoji: '🍱',
+    title: '今日食咩？',
+    subtitle: '午餐抽籤，唔使再問「食咩好」',
+    accent: '#e8590c',
+  },
+  {
+    id: 'drinks',
+    path: '/drinks',
+    emoji: '🥤',
+    title: '拯救你的kidney',
+    subtitle: '今日飲咗幾杯？腎臟睇住你',
+    accent: '#0e9f8e',
+  },
+  {
+    id: 'wlb',
+    path: '/wlb',
+    emoji: '⏳',
+    title: '你好收工啦！',
+    subtitle: '打卡收工，睇下今日蝕咗幾多',
+    accent: '#3b5bdb',
+  },
+  {
+    id: 'inspiration',
+    path: '/inspiration',
+    emoji: '💡',
+    title: '靈感收集箱',
+    subtitle: '見到好嘢就掉入嚟，急用時抽一條',
+    accent: '#d99100',
+  },
+  {
+    id: 'ai-tips',
+    path: '/ai-tips',
+    emoji: '🏰',
+    title: '米奇妙妙屋💡',
+    subtitle: 'AI 實戰心法，一鍵複製 Prompt',
+    accent: '#9c36b5',
+  },
+  {
+    id: 'ask-pearl',
+    path: '/ask-pearl',
+    emoji: '👑',
+    title: '快速收工的秘訣',
+    subtitle: '想要咩搞笑功能？問 Pearl',
+    accent: '#d92d20',
+  },
+];
